@@ -36,7 +36,7 @@ This project analyses sales data for Maven Global Electronics Retailer using Mic
 This is a portfolio project developed to demonstrate practical data analysis skills and the ability to communicate business performance through data.
 
 **Author:** Jane Palesa Mutileni  
-**Role:** Aspiring Data Analyst  
+**Role:** Data Analyst  
 **Tools:** Microsoft Excel
 ## Dashboard Preview
 
