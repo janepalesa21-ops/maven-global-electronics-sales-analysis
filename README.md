@@ -64,8 +64,10 @@ Limitations
 
 The findings reflect the available dataset and the calculations performed in this project. Further analysis would be required to establish the causes of sales patterns and determine the impact of specific business interventions.
 
-## Project Files
-- `Global Electronics Retailers analysis.xlsx` — Excel workbook containing the source data, analysis, and completed dashboard.
+##Project Files
+
+- Excel Workbook: "Global Electronics Retailers analysis.xlsx" — Contains the source data, analysis, calculations, and completed dashboard.
+- Dashboard Preview: "dashboard-preview.png" — A screenshot of the completed Excel dashboard.
 
 ## About This Project
 
