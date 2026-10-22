@@ -10,6 +10,22 @@ This project analyses sales data for Maven Global Electronics Retailer using Mic
 - Investigate customer and product performance.
 - Evaluate delivery efficiency and average delivery time.
 
+## Business Questions
+
+This project was guided by four key business questions:
+
+1. How has revenue changed over time?
+   Analyse revenue trends to identify periods of growth and decline.
+
+2. Which products and product categories generate the most revenue?
+   Compare product-category performance to understand where revenue is concentrated.
+
+3. Who are the customers, and where are they located?
+   Examine customer and geographic patterns to better understand the retailer's customer base.
+
+4. How efficiently are orders being fulfilled?
+   Analyse delivery times to evaluate fulfilment performance and identify opportunities for improvement.
+
 ## Tools Used
 - Microsoft Excel
 - PivotTables and PivotCharts
