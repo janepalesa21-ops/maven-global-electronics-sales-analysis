@@ -66,8 +66,8 @@ The findings reflect the available dataset and the calculations performed in thi
 
 ##Project Files
 
-- Excel Workbook: "Global Electronics Retailers analysis.xlsx" — Contains the source data, analysis, calculations, and completed dashboard.
-- Dashboard Preview: "dashboard-preview.png" — A screenshot of the completed Excel dashboard.
+- Excel Workbook: " Global Electronics Retailers analysis.xlsx " — Contains the source data, analysis, calculations, and completed dashboard.
+- Dashboard Preview: " dashboard-preview.png " — A screenshot of the completed Excel dashboard.
 
 ## About This Project
 
