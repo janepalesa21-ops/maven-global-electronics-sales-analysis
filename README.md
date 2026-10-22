@@ -38,4 +38,6 @@ This is a portfolio project developed to demonstrate practical data analysis ski
 **Author:** Jane Palesa Mutileni  
 **Role:** Aspiring Data Analyst  
 **Tools:** Microsoft Excel
+## Dashboard Preview
 
+![Maven Global Electronics Retailer Sales Analysis Dashboard](dashboard-preview.png)
