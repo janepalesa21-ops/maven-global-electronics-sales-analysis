@@ -32,6 +32,8 @@ This project was guided by four key business questions:
 - Excel formulas and calculations
 - Dashboard design and data visualisation
 
+![Maven Global Electronics Retailer Sales Analysis Dashboard](dashboard-preview.png
+
 ## Project Deliverables
 - Excel workbook containing the source data and analysis.
 - Sales performance dashboard.
