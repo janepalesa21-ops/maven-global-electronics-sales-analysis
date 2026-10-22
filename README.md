@@ -1,88 +1,128 @@
 # Maven Global Electronics Retailer — Sales Performance Analysis
 
-## Project Overview
-This project analyses sales data for Maven Global Electronics Retailer using Microsoft Excel. The goal is to turn raw data into meaningful business insights through data analysis, calculations, and an interactive dashboard.
+## 1. Project Overview
 
-## Business Objectives
-- Analyse overall revenue and order performance.
-- Explore sales trends over time.
-- Compare revenue across product categories.
-- Investigate customer and product performance.
-- Evaluate delivery efficiency and average delivery time.
+This project analyses sales data from Maven Global Electronics, a global electronics retailer, to identify sales trends, understand customer purchasing behaviour, and evaluate delivery performance across different sales channels.
 
-## Business Questions
+The analysis was conducted using Microsoft Excel, with data analysis and an interactive dashboard designed to communicate key business insights and support data-driven decision-making.
 
-This project was guided by four key business questions:
+## 2. Business Questions
 
-1. How has revenue changed over time?
-   Analyse revenue trends to identify periods of growth and decline.
+The project aims to answer the following business questions:
 
-2. Which products and product categories generate the most revenue?
-   Compare product-category performance to understand where revenue is concentrated.
+1. Which products are sold the most, and where are customers located?
+2. Are there seasonal patterns or trends in order volume and revenue?
+3. What is the average delivery time, and how has it changed over time?
+4. How does average order value compare between online and in-store purchases?
 
-3. Who are the customers, and where are they located?
-   Examine customer and geographic patterns to better understand the retailer's customer base.
+## 3. Key Findings
 
-4. How efficiently are orders being fulfilled?
-   Analyse delivery times to evaluate fulfilment performance and identify opportunities for improvement.
+- **Sales performance:** The business generated approximately $55.76 million in total revenue across the analysed period.
+- **Order volume:** The dataset contained 26,326 orders.
+- **Customer distribution:** North America recorded the highest customer count among the reported continents, with 8,381 customers, followed by Europe with 5,465 and Australia with 1,420.
+- **Delivery performance:** The overall average delivery time was approximately 4.53 days. Average delivery time declined from 7.29 days in 2016 to 3.85 days in 2021, indicating an improvement in delivery efficiency.
+- **Sales channels:** In-store purchases contributed approximately $44.35 million in revenue, while online purchases generated approximately $11.40 million.
+- **Revenue trends:** The analysis examined revenue patterns across years, quarters, and months to identify changes in sales performance over time.
 
-## Tools Used
+## 4. Project Files
+
+The repository contains the following files:
+
+- **Global Electronics Retailers Analysis.xlsx** — Excel workbook containing the analysis, calculations, and dashboard.
+- **dashboard-preview.png** — Preview image of the completed dashboard.
+- **README.md** — Project documentation, including the business questions, key findings, and analytical approach.
+
+## 5. Dashboard Preview
+
+The dashboard presents key performance indicators and visualisations to help users understand the company's sales performance at a glance.
+
+![Maven Global Electronics Retailer Dashboard](dashboard-preview.png)
+
+## 6. Tools and Technologies
+
 - Microsoft Excel
+- Power Pivot
+- Data Analysis Expressions (DAX)
 - PivotTables and PivotCharts
-- Excel formulas and calculations
-- Dashboard design and data visualisation
+- Data cleaning and transformation
+- Data visualisation
 
-![Maven Global Electronics Retailer Sales Analysis Dashboard](dashboard-preview.png
+## 7. Data Preparation
 
-## Project Deliverables
-- Excel workbook containing the source data and analysis.
-- Sales performance dashboard.
-- Visualisations of revenue, orders, product categories, and delivery performance.
+The project involved preparing the source data for analysis, reviewing data quality issues, and organising the data to support meaningful calculations and reporting.
 
-## Key Skills Demonstrated
+Key preparation activities included:
+
+- Reviewing missing values and data inconsistencies.
+- Investigating data quality issues in customer and sales fields.
+- Examining delivery dates and store-related fields.
+- Preparing calculations and measures for revenue, order volume, customer counts, and delivery performance.
+- Defining sales channels using delivery-date information: orders with a delivery date were classified as online, while orders without a delivery date were classified as in-store.
+
+## 8. Analysis and Dashboard Features
+
+The Excel dashboard includes key performance indicators and visualisations covering:
+
+- Total Revenue
+- Total Orders
+- Total Customers
+- Total Products
+- Average Delivery Days
+- Average Order Value
+- Revenue Trends
+- Revenue by Product Category
+- Order Volume Over Time
+- Average Delivery Time Over Time
+- Monthly Revenue Trends
+
+These metrics and visualisations provide an overview of business performance and help identify patterns that may require further investigation.
+
+## 9. Business Recommendations
+
+Based on the analysis, the following actions could help improve business performance:
+
+- **Improve delivery efficiency:** Investigate the factors behind longer delivery times in earlier years and maintain the improvements observed in more recent years.
+- **Strengthen sales strategies:** Use revenue trends to identify high-performing periods and plan promotions and inventory accordingly.
+- **Optimise product performance:** Review sales by product category to identify opportunities to promote popular products and investigate underperforming categories.
+- **Evaluate sales channels:** Compare online and in-store performance, including average order value, to identify opportunities to improve customer experience and increase revenue.
+- **Use customer insights:** Consider customer distribution when planning marketing campaigns, product availability, and regional sales strategies.
+
+## 10. Project Deliverables
+
+- An Excel workbook containing the sales analysis and dashboard.
+- A visual dashboard summarising key business performance indicators.
+- Business findings and recommendations based on the analysis.
+- Project documentation hosted on GitHub.
+
+## 11. Key Skills Demonstrated
+
 - Data cleaning and preparation
 - Exploratory data analysis
-- Business performance reporting
-- Data visualisation
-- Dashboard development
-- Translating data into business insights
+- Microsoft Excel
+- Power Pivot and data modelling
+- DAX calculations and measures
+- PivotTables and PivotCharts
+- KPI development
+- Data visualisation and dashboard design
+- Business intelligence and performance reporting
+- Translating data into actionable business insights
+- Communicating findings to support business decisions
 
-Key Findings
+## 12. Conclusion
 
-- Total Revenue: Approximately $55.76 million across the analysed sales data.
-- Total Orders: 26,326 orders.
-- Average Delivery Time: Approximately 4.53 days for orders with delivery dates.
-- Sales Channels: In-store sales generated approximately $44.35 million, while online sales generated approximately $11.40 million.
-- Order Value Comparison: Average order value was approximately $2,137.82 in-store and $2,043.79 online, based on the order counts used in the analysis.
+This project demonstrates how Microsoft Excel and Power Pivot can be used to analyse retail sales data, monitor key performance indicators, and communicate business insights through a structured dashboard.
 
-Business Recommendations
+By examining revenue, order volume, customer distribution, sales channels, and delivery performance, the project highlights the value of data analysis in supporting informed business decisions.
 
-- Evaluate online sales growth: Investigate opportunities to increase online revenue and improve the online shopping experience.
-- Monitor delivery efficiency: Track delivery times over time to identify opportunities to improve fulfilment performance.
-- Understand customer demand: Use customer-location and product-category analysis to identify opportunities for targeted marketing and inventory planning.
-- Support data-driven decisions: Use the dashboard to monitor key sales metrics and identify areas requiring further investigation.
+This project forms part of my data analytics portfolio and demonstrates my developing ability to transform business data into meaningful insights.
 
-Limitations
+---
 
-The findings reflect the available dataset and the calculations performed in this project. Further analysis would be required to establish the causes of sales patterns and determine the impact of specific business interventions.
+**Tools:** Microsoft Excel | Power Pivot | DAX | Data Visualisation
 
-##Project Files
+**Project Type:** Sales Performance Analysis | Business Intelligence | Dashboard Development
 
-- "Excel Workbook" (./Global%20Electronics%20Retailers%20analysis.xlsx) — Download the Excel workbook containing the source data, analysis, calculations, and completed dashboard.
-- "Dashboard Preview" (./dashboard-preview.png) — View the screenshot of the completed Excel dashboard.
 
-## About This Project
 
-This project was completed as part of my data analytics portfolio to demonstrate how Microsoft Excel can be used to transform raw retail data into meaningful business insights.
 
-I analysed sales performance, revenue trends, product categories, customer data, and delivery efficiency. I then presented the results in a dashboard designed to make key performance indicators and trends easier to understand.
 
-Through this project, I demonstrated practical skills in data preparation, analysis, calculations, data visualisation, dashboard development, and business reporting.
-
-The project reflects my commitment to developing practical data analytics skills and using data to support informed business decisions.
-
-## Author: Jane Mutileni
-## Role: Data Analyst
-## Tools: Microsoft Excel
-
-![Maven Global Electronics Retailer Sales Analysis Dashboard](dashboard-preview.png)
